@@ -12,12 +12,10 @@ Input: 2 0 0 3 0 4
 
 This is visualized as: 
 
-<tt>
 \.\.\.\.\.|
 \.\.\.|\.|
 |\.\.|\.|
 |__|_|
-</tt>
 
 Output: 7 
 

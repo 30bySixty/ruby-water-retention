@@ -12,13 +12,10 @@ Input: <code>2 0 0 3 0 4</code>
 
 This is visualized as: 
 
-<code>     |</code>
-
-<code>   | |</code>
-
-<code>|  | |</code>
-
-<code>|__|_|</code>
+<code>&#160;&#160;&#160;&#160;&#160;|<br>
+&#160;&#160;&#160;|&#160;|<br>
+|&#160;&#160;|&#160;|<br>
+|&#160;&#160;|&#160;|</code>
 
 Output: <code>7</code> 
 
@@ -28,13 +25,10 @@ Input: <code>0 4 4 2 3</code>
 
 This is visualized as:
 
-<code> ||  </code>
-
-<code> || |</code>
-
-<code> ||||</code>
-
-<code>_||||</code>
+<code>&#160;||&#160;&#160;<br>
+&#160;||&#160;|<br>
+&#160;||||<br>
+_||||</code>
 
 Output: <code>7</code> 
 
@@ -46,13 +40,10 @@ Input: <code>2 0 0 3 0 4</code>
 
 This is visualized as: 
 
-<code>     X</code>
-
-<code>   X X</code>
-
-<code>X  X X</code>
-
-<code>X__X_X</code>
+<code>&#160;&#160;&#160;&#160;&#160;X<br>
+&#160;&#160;&#160;X&#160;X<br>
+X&#160;&#160;X&#160;X<br>
+X__X_X</code>
 
 Output: <code>7</code>
 
@@ -62,13 +53,10 @@ Input: <code>0 4 4 2 3</code>
 
 This is visualized as:
 
-<code> XX  </code>
-
-<code> XX X</code>
-
-<code> XXXX</code>
-
-<code>_XXXX</code>
+<code>&#160;XX&#160;&#160;<br>
+&#160;XX&#160;X<br>
+&#160;XXXX<br>
+_XXXX</code>
 
 Output: <code>7</code> 
 
@@ -80,15 +68,11 @@ Input: <code>0 2 3 2 1 0 1 2 3 3 2 5 2 2</code>
 
 This is visualized as: 
 
-<code>           X  </code>
-
-<code>           X  </code>
-
-<code>  X     XX X  </code>
-
-<code> XXX   XXXXXXX</code>
-
-<code>_XXXX_XXXXXXXX</code>
+<code>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;X&#160;&#160;<br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;X&#160;&#160;<br>
+&#160;&#160;X&#160;&#160;&#160;&#160;&#160;XX&#160;X&#160;&#160;<br>
+&#160;XXX&#160;&#160;&#160;XXXXXXX<br>
+_XXXX_XXXXXXXX</code>
 
 Output: <code>10</code>
 

@@ -13,10 +13,13 @@ Input: 2 0 0 3 0 4
 This is visualized as: 
 
 <code>
-\ \ \ \ \ |<br>
-\ \ \ |\ |<br>
-|\ \ |\ |<br>
-|__|_|<br>
+\s\s\s\s\s|
+
+\s\s\s|\s|
+
+|\s\s|\s|
+
+|__|_|
 </code>
 
 Output: 7 

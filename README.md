@@ -36,9 +36,9 @@ _||||
 
 Output: `0` 
 
-Note: The configuration holds 0 units of water because water would fall out the bocodeom.
+Note: The configuration holds 0 units of water because water would fall out with no bottom.
 
-Let's make the problem a licodele more interesting with "magic squares."
+Let's make the problem a little more interesting with "magic squares."
 
 Input: `2 0 0 3 0 4`
 
@@ -68,9 +68,9 @@ _XXXX
 
 Output: `1` 
 
-Note:The configuration holds 1 units of water due to the dip in the fourth column.
+Note:The configuration holds 1 unit of water due to the dip in the fourth column.
 
-This allows for much more interesting landscapes, such as:
+Assuming "magic squares" allows for much more interesting landscapes, such as:
 
 Input: `0 2 3 2 1 0 1 2 3 3 2 5 2 2`
 
@@ -86,6 +86,6 @@ _XXXX_XXXXXXXX
 
 Output: `10`
 
-I’ve built two simple ruby CLI programs for counting water retention per the above examples. `Water Retention_1.rb` assumes water falls through consecutive integers, and `Water Retention_2.rb` assumes magic squares. 
+I’ve built two simple ruby CLI programs that count water retention per the above examples. `Water Retention_1.rb` assumes water falls out between consecutive integers, and `Water Retention_2.rb` assumes "magic squares." 
 
 I really liked this challenge because it’s a math problem at its heart, whose solution requires nested while loops (cool, right?). Enjoy!

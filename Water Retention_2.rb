@@ -39,24 +39,21 @@ def processLine
                 break if i == k || i == k-1
                 counter = 1
                 j = i
-                while $numbers[j+1] >= $numbers[j+2]
+                while $numbers[j+2] < $numbers[i]
+                    break if j+2 == k
                     j += 1
                     counter += 1
-                    break if j == k
                 end
-                break if j == k
                 $solution = $solution + ([$numbers[i], $numbers[j+2]].min * counter) 
                 for m in (i+1)..(j+1)
                     $solution = $solution - $numbers[m]
                 end
-                break if j+2 == k
                 i = j+2
             end
             puts $solution
         end   
     end
 end       
-
 $stdin.each_line do |line|
     $numbers = line.chomp.split(" ").map{|i| i.to_i}
     processLine

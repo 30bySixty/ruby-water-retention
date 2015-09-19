@@ -1,0 +1,67 @@
+== README
+
+Recently I participated in my first coding competition. As someone without a formal coding background, this competition was a great experience because it exposed me to some of the types of problems that computer science college students might work on in their studies. One of the competition challenges was to create a command line I/O program that determines how much water would be retained by a given landscape configuration.
+
+Input: space-separated string of integers
+Output: integer units of water retained
+
+Here’s an example:
+
+Input: <tt>2 0 0 3 0 4</tt>
+This is visualized as: 
+<tt>
+     |
+   | |
+|  | |
+|__|_|
+</tt>
+Output: <tt>7</tt> #The configuration holds 7 units of water
+
+Input: <tt>0 4 4 2 3</tt>
+This is visualized as:
+<tt>
+ ||
+ || |
+ ||||
+_||||
+</tt>
+Output: <tt>7</tt> #The configuration holds 0 units of water because water would fall out the bottom
+
+Now let's make the problem a little more interesting with "magic squares."
+
+Input: <tt>2 0 0 3 0 4</tt>
+This is visualized as: 
+<tt>
+     X
+   X X
+X  X X
+X__X_X
+</tt>
+Output: <tt>7</tt> #The configuration holds 7 units of water
+
+Input: <tt>0 4 4 2 3</tt>
+This is visualized as:
+<tt>
+ XX
+ XX X
+ XXXX
+_XXXX
+</tt>
+Output: <tt>7</tt> #The configuration holds 1 units of water due to the dip in the fourth column
+
+This allows for much more interesting landscapes, such as:
+
+Input: <tt>0 2 3 2 1 0 1 2 3 3 2 5 2 2</tt>
+This is visualized as: 
+<tt>
+           X  
+           X  
+  X     XX X  
+ XXX   XXXXXXX
+_XXXX_XXXXXXXX
+</tt>
+Output: <tt>10</tt>
+
+I’ve built two simple ruby CLI programs for counting water retention per the above examples. <tt>Water Retention_1.rb</tt> assumes water falls through consecutive integers, and <tt>Water Retention_2.rb</tt> assumes magic squares. 
+
+I really liked this challenge because it’s a math problem at its heart, whose solution requires nested while loops (cool, right?). Enjoy!

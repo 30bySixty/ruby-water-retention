@@ -14,11 +14,8 @@ This is visualized as:
 
 
 <tt>\s\s\s\s\s|</tt>
-
 <tt>\s\s\s|\s|</tt>
-
 <tt>|\s\s|\s|</tt>
-
 <tt>|__|_|</tt>
 
 

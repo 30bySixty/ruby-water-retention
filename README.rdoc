@@ -8,17 +8,15 @@ Output: integer units of water retained
 
 Here are some examples:
 
-Input: 2 0 0 3 0 4
+Input: `2 0 0 3 0 4`
 
 This is visualized as: 
 
-```
-<code>
-\ \ \ \ \ |
-\ \ \ |\ |
-|\ \ |\ |
+```ruby
+     |
+   | |
+|  | |
 |__|_|
-</code>
 ```
 
 Output: 7 

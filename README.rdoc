@@ -8,72 +8,90 @@ Output: integer units of water retained
 
 Here are some examples:
 
-Input: <tt>2 0 0 3 0 4</tt>
+Input: <code>2 0 0 3 0 4</code>
 
 This is visualized as: 
 
-<tt>     |</tt>
-<tt>   | |</tt>
-<tt>|  | |</tt>
-<tt>|__|_|</tt>
+<code>     |</code>
 
-Output: <tt>7</tt> 
+<code>   | |</code>
+
+<code>|  | |</code>
+
+<code>|__|_|</code>
+
+Output: <code>7</code> 
 
 Note: The configuration holds 7 units of water.
 
-Input: <tt>0 4 4 2 3</tt>
+Input: <code>0 4 4 2 3</code>
+
 This is visualized as:
-<tt> ||  </tt>
-<tt> || |</tt>
-<tt> ||||</tt>
-<tt>_||||</tt>
 
-Output: <tt>7</tt> 
+<code> ||  </code>
 
-Note: The configuration holds 0 units of water because water would fall out the bottom.
+<code> || |</code>
 
-Let's make the problem a little more interesting with "magic squares."
+<code> ||||</code>
 
-Input: <tt>2 0 0 3 0 4</tt>
+<code>_||||</code>
+
+Output: <code>7</code> 
+
+Note: The configuration holds 0 units of water because water would fall out the bocodeom.
+
+Let's make the problem a licodele more interesting with "magic squares."
+
+Input: <code>2 0 0 3 0 4</code>
 
 This is visualized as: 
 
-<tt>     X</tt>
-<tt>   X X</tt>
-<tt>X  X X</tt>
-<tt>X__X_X</tt>
+<code>     X</code>
 
-Output: <tt>7</tt>
+<code>   X X</code>
+
+<code>X  X X</code>
+
+<code>X__X_X</code>
+
+Output: <code>7</code>
 
 Note: Same as before...
 
-Input: <tt>0 4 4 2 3</tt>
+Input: <code>0 4 4 2 3</code>
 
 This is visualized as:
 
-<tt> XX  </tt>
-<tt> XX X</tt>
-<tt> XXXX</tt>
-<tt>_XXXX</tt>
+<code> XX  </code>
 
-Output: <tt>7</tt> 
+<code> XX X</code>
+
+<code> XXXX</code>
+
+<code>_XXXX</code>
+
+Output: <code>7</code> 
 
 Note:The configuration holds 1 units of water due to the dip in the fourth column.
 
 This allows for much more interesting landscapes, such as:
 
-Input: <tt>0 2 3 2 1 0 1 2 3 3 2 5 2 2</tt>
+Input: <code>0 2 3 2 1 0 1 2 3 3 2 5 2 2</code>
 
 This is visualized as: 
 
-<tt>           X  </tt>
-<tt>           X  </tt>
-<tt>  X     XX X  </tt>
-<tt> XXX   XXXXXXX</tt>
-<tt>_XXXX_XXXXXXXX</tt>
+<code>           X  </code>
 
-Output: <tt>10</tt>
+<code>           X  </code>
 
-I’ve built two simple ruby CLI programs for counting water retention per the above examples. <tt>Water Retention_1.rb</tt> assumes water falls through consecutive integers, and <tt>Water Retention_2.rb</tt> assumes magic squares. 
+<code>  X     XX X  </code>
+
+<code> XXX   XXXXXXX</code>
+
+<code>_XXXX_XXXXXXXX</code>
+
+Output: <code>10</code>
+
+I’ve built two simple ruby CLI programs for counting water retention per the above examples. <code>Water Retention_1.rb</code> assumes water falls through consecutive integers, and <code>Water Retention_2.rb</code> assumes magic squares. 
 
 I really liked this challenge because it’s a math problem at its heart, whose solution requires nested while loops (cool, right?). Enjoy!

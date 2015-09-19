@@ -12,11 +12,12 @@ Input: 2 0 0 3 0 4
 
 This is visualized as: 
 
-
-\ \ \ \ \ |
-\ \ \ |\ |
-|\ \ |\ |
+```
+     |
+   | |
+|  | |
 |__|_|
+```
 
 Output: 7 
 
@@ -58,10 +59,12 @@ Input: 0 4 4 2 3
 
 This is visualized as:
 
+```
  XX  
  XX X
  XXXX
 _XXXX
+```
 
 Output: 7 
 
@@ -73,11 +76,13 @@ Input: 0 2 3 2 1 0 1 2 3 3 2 5 2 2
 
 This is visualized as: 
 
+```
            X  
            X  
   X     XX X  
  XXX   XXXXXXX
 _XXXX_XXXXXXXX
+```
 
 Output: 10
 

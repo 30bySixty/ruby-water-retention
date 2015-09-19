@@ -12,15 +12,15 @@ Input: 2 0 0 3 0 4
 
 This is visualized as: 
 
-<tt>
-\s\s\s\s\s|
 
-\s\s\s|\s|
+<tt>\s\s\s\s\s|</tt>
 
-|\s\s|\s|
+<tt>\s\s\s|\s|</tt>
 
-|__|_|
-</tt>
+<tt>|\s\s|\s|</tt>
+
+<tt>|__|_|</tt>
+
 
 Output: 7 
 
